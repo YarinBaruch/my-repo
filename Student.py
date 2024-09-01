@@ -38,7 +38,7 @@ class Student(Person):
 ########################################## TESTS #################################################
 
 if __name__ == "__main__":
-    test_id = 101  
+    test_id = 100  
     test_name = "test_name"
     test_age = 80
     test_field_of_study = "Science"
