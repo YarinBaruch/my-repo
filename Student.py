@@ -45,6 +45,8 @@ if __name__ == "__main__":
     test_year_of_study = 2
     test_score_avg = 90
 
+
+    print("This is from programmer 1")  
     student = Student(test_id, test_name, test_age, test_field_of_study, test_year_of_study, test_score_avg)
     if student.getID() != test_id:
         print("Error: ID should be " + str(test_id) + " but i got " + str(student.getID()))
